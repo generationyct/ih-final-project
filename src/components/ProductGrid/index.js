@@ -58,7 +58,6 @@ const ProductGrid = () => {
             node: {
               id,
               handle,
-              title,
               images: [firstImage],
               variants: [firstVariant],
             },
@@ -72,7 +71,6 @@ const ProductGrid = () => {
                   />
                 )}
               </Link>
-              <Title>{title}</Title>
               <PriceTag>{getPrice(firstVariant.price)}</PriceTag>
             </Product>
           )

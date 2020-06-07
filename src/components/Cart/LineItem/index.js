@@ -35,12 +35,7 @@ const LineItem = props => {
       <Link to={`/product/${item.variant.product.handle}/`}>
         {variantImage}
       </Link>
-      <p>
-        {item.title}
-        {`  `}
-        {item.variant.title === !'Default Title' ? item.variant.title : ''}
-      </p>
-      {selectedOptions}
+      <p>{item.title}</p>
       {item.quantity}
       <button onClick={handleRemove}>Remove</button>
     </Wrapper>
