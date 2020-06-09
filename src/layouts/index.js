@@ -33,7 +33,10 @@ const Layout = ({ children }) => {
             <Navigation siteTitle={data.site.siteMetadata.title} />
             <Wrapper>
               {children}
-              <footer>© {new Date().getFullYear()}, All Rights Reserved</footer>
+              <footer>
+                © {new Date().getFullYear()}, Sparkling Gifts - All Rights
+                Reserved
+              </footer>
             </Wrapper>
           </>
         )}
