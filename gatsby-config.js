@@ -40,7 +40,7 @@ module.exports = {
         shopName: process.env.SHOP_NAME, // or custom domain
         accessToken: process.env.SHOPIFY_ACCESS_TOKEN,
         shouldIncludeSourcePlugin: true, // default
-        shouldWrapRootElementWithProvider: false, // default
+        shouldWrapRootElementWithProvider: true, // default
       },
     },
 
